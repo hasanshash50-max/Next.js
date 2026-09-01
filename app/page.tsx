@@ -3,7 +3,7 @@ export default function()
 {
     return(
         <div>  
-            <h1>hello world</h1>
+            <h1>hello world in next js</h1>
         </div>
     )
 }
