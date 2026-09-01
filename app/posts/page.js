@@ -2,32 +2,14 @@ import Link from "next/link"
 import Todo from "../components/todo"
 export default async function () {
     const response = await fetch(
-        "https://jsonplaceholder.typicode.com/posts",
+        "https://jsonplaceholder.typicode.com/todos/1",
         {
             next: {
                 revalidate: 120,
             },
         }
     );
-    const posts = await response.json();
-    const postJSX = posts.slice(0,5).map((post) => {
-        return (
-              <Link href={`posts/${post.id}`} style={{background:"transparent"}}>
-                   <div
-                      key={post.id}
-                      style={{
-                          marginBottom: "5px",
-                          padding: "5px",
-                          border: "solid 2px #000",
-                          borderRadius: "10px",
-                      }}>
-                      <h2>{post.title}</h2>
-                      <hr/>
-                      <p>{post.body}</p>
-                   </div>
-            </Link>
-        );
-    });
+    const todo = await response.json();
     return (
         <div>
             <h1
@@ -39,7 +21,8 @@ export default async function () {
                 Welcome to Learn Next.js
             </h1>
              <div>
-                {postJSX}
+                {todo.title}
+                <Todo/>
             </div>
         </div>
     );

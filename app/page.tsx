@@ -3,7 +3,11 @@ export default function()
 {
     return(
         <div>  
-            <h1>hello world in next js</h1>
+            <h1 
+            style={{
+               position:"absolute",
+               left:"100px"
+            }}>hello Nextjs</h1>
         </div>
     )
 }

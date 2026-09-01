@@ -8,7 +8,7 @@ export default function () {
     useEffect(() => {
         async function getTodo() {
             const response = await fetch(
-                "https://jsonplaceholder.typicode.com/posts" , //static site generation
+                "https://jsonplaceholder.typicode.com/todos/1" , //static site generation
                 {
                    next:{
                        revalidate: 120,
