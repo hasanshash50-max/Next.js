@@ -1,15 +1,32 @@
 import Link from "next/link"
-import Todo from "../components/todo"
 export default async function () {
     const response = await fetch(
-        "https://jsonplaceholder.typicode.com/todos/1",
+        "https://jsonplaceholder.typicode.com/posts",
         {
             next: {
                 revalidate: 120,
             },
         }
     );
-    const todo = await response.json();
+    const posts = await response.json();
+    const postJSX = posts.slice(0,5).map((post) => {
+        return (
+              <Link href={`posts/${post.id}`} style={{background:"transparent"}}>
+                   <div
+                      key={post.id}
+                      style={{
+                          marginBottom: "30px",
+                          padding: "5px",
+                          border: "1px solid #000",
+                          borderRadius: "10px",
+                      }}>
+                      <h2>{post.title}</h2>
+                      <hr/>
+                      <p>{post.body}</p>
+                   </div>
+            </Link>
+        );
+    });
     return (
         <div>
             <h1
@@ -20,10 +37,7 @@ export default async function () {
                 }}>
                 Welcome to Learn Next.js
             </h1>
-             <div>
-                {todo.title}
-                <Todo/>
-            </div>
+            {postJSX}
         </div>
     );
-}
+} 

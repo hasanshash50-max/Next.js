@@ -29,19 +29,8 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}
-          <div style={{
-            border:"solid 2px #fff",
-            margin:"auto",
-            width:"90%",
-            marginTop:"8px"
-          }}>
-             <nav
-             style={{
-              display:"flex",
-              justifyContent:"center",
-              gap:"40px",
-              padding:"5px"
-             }}>
+          <div>
+             <nav>
                 <Link href="/">Home</Link>
                 <Link href="/images">images</Link>
                 <Link href="/posts">posts</Link>
