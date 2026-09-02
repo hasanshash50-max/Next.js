@@ -7,7 +7,7 @@ export default function()
                 position:"absolute",
                 top:"160px",
                 left:"17px",
-                fontWeight:"620"
+                fontWeight:"620",
             }}>About Me</h1><br></br>
             <p style={{
                 position:"absolute",

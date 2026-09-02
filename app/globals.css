@@ -30,24 +30,27 @@ body {
       top: 290px;
       left: 13px;
       padding: 10px;
-      width: 400px;
+      width: 230px;
       text-align: center;
+      background: gray;
    }
 #three{
       position: absolute;
       top: 380px;
       left: 13px;
       padding: 10px;
-      width: 400px;
+      width: 190px;
       text-align: center;
+      background: gray;
    }
 #four{
       position: absolute;
       top: 470px;
       left: 13px;
       padding: 10px;
-      width: 400px;
+      width: 150px;
       text-align: center;
+      background: gray;
 }
 @media(max-width : 1024px)
 {
@@ -56,7 +59,7 @@ body {
 .parent{
    background: #8080808e;
    height: 540px;
-   width: 98%;
+   width: 99%;
    margin: auto;
    margin-top: 2px;
 }
