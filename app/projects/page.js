@@ -12,7 +12,7 @@ export default function()
                 <span style={{
                     position:"absolute",
                     top:"200px",
-                    left:"17px",
+                    left:"500px",
                     background:"gray",
                     padding:"10px",
                     width:"400px"}}>

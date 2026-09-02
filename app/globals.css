@@ -26,56 +26,36 @@ body {
   font-family: system-ui;
 }
 #two{
-   position: absolute;
-   top: 200px;
-   left: 650px;
-   width: 400px;
-   padding: 10px;
-   background: gray;
-}
-#three{
-   position: absolute;
-   top: 310px;
-   left: 17px;
-   width: 400px;
-   padding: 10px;
-   background: gray;
-}
-#four{
       position: absolute;
-      top: 310px;
-      left: 650px;
+      top: 290px;
+      left: 300px;
       padding: 10px;
       width: 400px;
       background: gray;
-}
+   }
+#three{
+      position: absolute;
+      top: 380px;
+      left: 500px;
+      padding: 10px;
+      width: 400px;
+      background: gray;
+   }
+#four{
+      position: absolute;
+      top: 470px;
+      left: 300px;
+      padding: 10px;
+      width: 400px;
+      background: gray;
+   }
 .stc{
    width: 100%;
    position: relative;
 }
 @media(max-width : 1024px)
 {
-   /* #two{
-      position: absolute;
-      top: 290px;
-      left: 17px;
-      padding: 10px;
-      width: 400px;
-   }
-   #three{
-      position: absolute;
-      top: 380px;
-      left: 17px;
-      padding: 10px;
-      width: 400px;
-   }
-   #four{
-      position: absolute;
-      top: 470px;
-      left: 17px;
-      padding: 10px;
-      width: 400px;
-   } */
+   
 }
 .parent{
    background: #8080808e;
