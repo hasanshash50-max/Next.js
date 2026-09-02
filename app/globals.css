@@ -52,12 +52,8 @@ body {
       text-align: center;
       background: gray;
 }
-@media(max-width : 1024px)
-{
-   
-}
 .parent{
-   background: #8080808e;
+   background: #8080805e;
    height: 540px;
    width: 99%;
    margin: auto;
