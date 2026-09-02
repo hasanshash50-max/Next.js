@@ -44,7 +44,7 @@ export default function RootLayout({
              style={{
                margin:"5px 8px 0px 0px",
                display:"flex",
-               gap:"5px",
+               gap:"30px",
                color:"#fff"
              }}>
                 <Link href="/">About</Link>
