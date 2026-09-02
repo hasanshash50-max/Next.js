@@ -29,14 +29,44 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}
-          <div>
-             <nav>
-                <Link href="/">Home</Link>
-                <Link href="/images">images</Link>
-                <Link href="/posts">posts</Link>
+        <div className="parent">
+          <div 
+          style={{
+            display:"flex",
+            justifyContent:"space-between",
+            background:"gray",
+            width:"100%",
+            margin:"auto",
+            marginTop:"-15px"
+          }}>
+             <span style={{margin:"7px 10px" , color:"#fff" , fontWeight:"bolder"}}>Your Name</span>
+             <nav
+             style={{
+               margin:"5px 30px 0px 0px",
+               display:"flex",
+               gap:"60px",
+               color:"#fff"
+             }}>
+                <Link href="/">About</Link>
+                <Link href="/projects">Projects</Link>
+                <Link href="/contact">Contact</Link>
              </nav>
           </div>
+          <h1 style={{
+            textAlign:"center",
+            position:"relative",
+            top:"20px",
+            fontSize:"24px",
+            fontWeight:"bolder"
+          }}>Your Name</h1>
+          <p style={{
+            textAlign:"center",
+            position:"relative",
+            top:"20px",
+            fontSize:"12px"
+          }}>Web Developer</p>
+      </div>
       </body>
     </html>
   );   
-} 
+}
