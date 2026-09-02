@@ -17,11 +17,11 @@ export default function()
                     padding:"10px",
                     textAlign:"center",
                     background:"gray",
-                    width:"270px"}}>
-                    Project 1 <br></br> <u style={{textDecoration:"none",fontSize:"13px"}}>learn html language</u></span>
-                <span id="two">Project 2<br></br> <u style={{textDecoration:"none",fontSize:"13px"}}>learn css language</u></span>
-                <span id="three">Project 3<br></br> <u style={{textDecoration:"none",fontSize:"13px"}}>learn javascript language</u></span>
-                <span id="four">Project 4<br></br> <u style={{textDecoration:"none",fontSize:"13px"}}>learn nextjs language</u></span>
+                    width:"290px"}}>
+                    Project 1 <br></br> <u style={{textDecoration:"none",fontSize:"13px"}}>learn ( html ) language</u></span>
+                <span id="two">Project 2<br></br> <u style={{textDecoration:"none",fontSize:"13px"}}>learn ( css ) language</u></span>
+                <span id="three">Project 3<br></br> <u style={{textDecoration:"none",fontSize:"13px"}}>learn ( javascript ) language</u></span>
+                <span id="four">Project 4<br></br> <u style={{textDecoration:"none",fontSize:"13px"}}>learn ( Nextjs ) language</u></span>
             </div>
         </div>
     )

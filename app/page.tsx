@@ -13,8 +13,8 @@ export default function()
                 position:"absolute",
                 top:"200px",
                 left:"17px"
-            }}>Hi , I'm a possionate web developer with expertise in Next.js , React 
-                and Tailwind CSS .<br></br> I love building modern , responsive ,
+            }}>Hi , I'm a possionate web developer with expertise in Next.js , React <br></br>
+                and Tailwind CSS .I love building modern , responsive ,
                 and user-friendly websites.
             </p>
         </div>
