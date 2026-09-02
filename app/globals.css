@@ -54,7 +54,7 @@ body {
 }
 @media(max-width : 1024px)
 {
-   #two{
+   /* #two{
       position: absolute;
       top: 290px;
       left: 17px;
@@ -74,7 +74,7 @@ body {
       left: 17px;
       padding: 10px;
       width: 400px;
-   }
+   } */
 }
 .parent{
    background: #8080808e;
