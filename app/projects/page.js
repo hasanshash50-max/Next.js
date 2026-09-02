@@ -6,15 +6,16 @@ export default function()
                 position:"absolute",
                 top:"160px",
                 left:"17px",
-                fontWeight:"620"
+                fontWeight:"620",
+                fontSize:"20px"
             }}>Projects</h1>
             <div className="stc">
                 <span style={{
                     position:"absolute",
                     top:"200px",
-                    left:"500px",
-                    background:"gray",
+                    left:"13px",
                     padding:"10px",
+                    textAlign:"center",
                     width:"400px"}}>
                     Project 1 <br></br> <u style={{textDecoration:"none",fontSize:"13px"}}>learn html language</u></span>
                 <span id="two">Project 2<br></br> <u style={{textDecoration:"none",fontSize:"13px"}}>learn css language</u></span>

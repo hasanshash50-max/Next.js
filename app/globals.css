@@ -28,30 +28,26 @@ body {
 #two{
       position: absolute;
       top: 290px;
-      left: 300px;
+      left: 13px;
       padding: 10px;
       width: 400px;
-      background: gray;
+      text-align: center;
    }
 #three{
       position: absolute;
       top: 380px;
-      left: 500px;
+      left: 13px;
       padding: 10px;
       width: 400px;
-      background: gray;
+      text-align: center;
    }
 #four{
       position: absolute;
       top: 470px;
-      left: 300px;
+      left: 13px;
       padding: 10px;
       width: 400px;
-      background: gray;
-   }
-.stc{
-   width: 100%;
-   position: relative;
+      text-align: center;
 }
 @media(max-width : 1024px)
 {
