@@ -15,7 +15,7 @@ export default function()
                     left:"17px",
                     background:"gray",
                     padding:"10px",
-                    width:"590px"}}>
+                    width:"400px"}}>
                     Project 1 <br></br> <u style={{textDecoration:"none",fontSize:"13px"}}>learn html language</u></span>
                 <span id="two">Project 2<br></br> <u style={{textDecoration:"none",fontSize:"13px"}}>learn css language</u></span>
                 <span id="three">Project 3<br></br> <u style={{textDecoration:"none",fontSize:"13px"}}>learn javascript language</u></span>

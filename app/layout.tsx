@@ -39,12 +39,12 @@ export default function RootLayout({
             margin:"auto",
             marginTop:"-15px"
           }}>
-             <span style={{margin:"7px 10px" , color:"#fff" , fontWeight:"bolder"}}>Your Name</span>
+             <span style={{margin:"7px" , color:"#fff" , fontWeight:"bolder"}}>Your Name</span>
              <nav
              style={{
-               margin:"5px 30px 0px 0px",
+               margin:"5px 5px 0px 0px",
                display:"flex",
-               gap:"60px",
+               gap:"40px",
                color:"#fff"
              }}>
                 <Link href="/">About</Link>

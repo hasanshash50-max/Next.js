@@ -29,7 +29,7 @@ body {
    position: absolute;
    top: 200px;
    left: 650px;
-   width: 590px;
+   width: 400px;
    padding: 10px;
    background: gray;
 }
@@ -37,7 +37,7 @@ body {
    position: absolute;
    top: 310px;
    left: 17px;
-   width: 590px;
+   width: 400px;
    padding: 10px;
    background: gray;
 }
@@ -46,7 +46,7 @@ body {
       top: 310px;
       left: 650px;
       padding: 10px;
-      width: 590px;
+      width: 400px;
       background: gray;
 }
 @media(max-width : 1024px)
@@ -56,21 +56,21 @@ body {
       top: 290px;
       left: 17px;
       padding: 10px;
-      width: 590px;
+      width: 400px;
    }
    #three{
       position: absolute;
       top: 380px;
       left: 17px;
       padding: 10px;
-      width: 590px;
+      width: 400px;
    }
    #four{
       position: absolute;
       top: 470px;
       left: 17px;
       padding: 10px;
-      width: 590px;
+      width: 400px;
    }
 }
 .parent{

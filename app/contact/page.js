@@ -13,6 +13,7 @@ export default function()
                 position:"absolute",
                 top:"200px",
                 left:"17px",
+                fontSize:"13px"
             }}>Feel free to reach out to me at <Link href="MAILTO:hasanshash50@gmail.com"
             style={{
                 color:"blue",
