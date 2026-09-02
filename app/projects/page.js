@@ -8,7 +8,7 @@ export default function()
                 left:"17px",
                 fontWeight:"620"
             }}>Projects</h1>
-            <div id="stc">
+            <div className="stc">
                 <span style={{
                     position:"absolute",
                     top:"200px",
