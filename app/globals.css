@@ -53,12 +53,11 @@ body {
       background: gray;
 }
 .parent{
-   background: #8080805e;
+   background: #80808079;
    height: 540px;
    width: 99%;
    margin: auto;
    margin-top: 2px;
-   position: relative;
 }
 :any-link:hover{
    text-decoration: underline;
