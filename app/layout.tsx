@@ -47,9 +47,9 @@ export default function RootLayout({
                gap:"25px",
                color:"#fff"
              }}>
-                <Link href="/">About</Link>
-                <Link href="/projects">Projects</Link>
-                <Link href="/contact">Contact</Link>
+                <Link id="link" href="/">About</Link>
+                <Link id="link" href="/projects">Projects</Link>
+                <Link id="link" href="/contact">Contact</Link>
              </nav>
           </div>
           <h1 style={{

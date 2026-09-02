@@ -59,7 +59,7 @@ body {
    margin: auto;
    margin-top: 2px;
 }
-:link:hover{
+#link:hover{
    text-decoration: underline;
    text-underline-offset: 13px;
 }
